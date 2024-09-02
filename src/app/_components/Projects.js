@@ -78,7 +78,7 @@ function Projects() {
                 <div className="flex justify-start items-center gap-2 flex-wrap">
                   {_.map(techs, (item, index) => (
                     <span
-                      className="border-b-2 rounded border-gray-400 bg-gray-200 text-xs font-medium"
+                      className="border-b-2 rounded border-gray-400 bg-gray-200 text-xs font-medium px-1"
                       key={index}
                     >
                       {item}

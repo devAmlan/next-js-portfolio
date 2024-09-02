@@ -51,7 +51,7 @@ const MY_SKILLS = [
   },
   {
     _id: nanoid(),
-    name: "Mongdb",
+    name: "Mongodb",
     image: "mongodb.png",
   },
 ];

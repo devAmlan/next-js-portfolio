@@ -3,7 +3,7 @@ import React from "react";
 function Intro() {
   return (
     <div className="w-full flex justify-start items-start flex-col gap-10">
-      <h1 className="text-2xl font-bold">Hii I'm Amlan!!!</h1>
+      <h1 className="text-2xl font-bold">Hii I&apos;m Amlan!!!</h1>
       <p className="text-base text-gray-500">
         I completed my Bachelor of Engineering (B.E.) in Computer Science from
         Chandigarh University. Following my graduation, I joined Toddle as a
