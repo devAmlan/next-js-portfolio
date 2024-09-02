@@ -63,7 +63,12 @@ function Skills() {
         {_.map(MY_SKILLS, ({ _id, name, image }) => {
           return (
             <div className="flex justify-center items-center gap-2" key={_id}>
-              <Image src={`/icons/${image}`} width={24} height={24} />
+              <Image
+                src={`/icons/${image}`}
+                width={24}
+                height={24}
+                alt="skill-icons"
+              />
               <span className="text-sm font-semibold text-primary">{name}</span>
             </div>
           );
